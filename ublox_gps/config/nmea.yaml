@@ -8,20 +8,20 @@ nmea:
   compat: true
   consider: true
   limit82: true
-  high_prec: false
+  high_prec: true
   filter:
-    pos: true
-    msk_pos: true
-    time: true
-    date: true
-    gps_only: true
-    track: true
+    pos: false
+    msk_pos: false
+    time: false
+    date: false
+    gps_only: false
+    track: false
   gnssToFilter:
     gps: false
     sbas: true
-    qzss: true
+    qzss: false
     glonass: false
-    beidou: true
+    beidou: false
   main_talker_id: 1
   gsv_talker_id: 1
   bds_talker_id: [0,0]

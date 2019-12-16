@@ -90,3 +90,5 @@ gen/*
 *.out
 *.app
 
+.vscode/c_cpp_properties.json
+.vscode/settings.json
