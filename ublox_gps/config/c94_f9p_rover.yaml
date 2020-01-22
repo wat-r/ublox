@@ -18,6 +18,7 @@ dynamic_model: portable    # Airborne < 2G, 2D fix not supported (3D only),
                             # Max Horizontal Velocity: 250 m/s, 
                             # Max Vertical Velocity: 100 m/s
 # fix_mode: auto
+config_on_startup: false
 enable_ppp: false           # Not supported by C94-M8P
 # dr_limit: 0
 
